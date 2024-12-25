@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		23AD9D6C2CB5745D000D3B8D /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 23AD9D6B2CB5745D000D3B8D /* FocusEntity */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2395C5552CAF889300773715 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -29,9 +33,22 @@
 		2395C55E2CAF889300773715 /* VisibilityTechARCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisibilityTechARCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		23AD5AE62CB3FEEE008C28CD /* Exceptions for "VisibilityTechARCheck" folder in "VisibilityTechARCheck" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2395C5432CAF889100773715 /* VisibilityTechARCheck */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2395C5462CAF889100773715 /* VisibilityTechARCheck */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				23AD5AE62CB3FEEE008C28CD /* Exceptions for "VisibilityTechARCheck" folder in "VisibilityTechARCheck" target */,
+			);
 			path = VisibilityTechARCheck;
 			sourceTree = "<group>";
 		};
@@ -52,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23AD9D6C2CB5745D000D3B8D /* FocusEntity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +96,7 @@
 				2395C5462CAF889100773715 /* VisibilityTechARCheck */,
 				2395C5572CAF889300773715 /* VisibilityTechARCheckTests */,
 				2395C5612CAF889300773715 /* VisibilityTechARCheckUITests */,
+				23AD9D6A2CB5745D000D3B8D /* Frameworks */,
 				2395C5452CAF889100773715 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +109,13 @@
 				2395C55E2CAF889300773715 /* VisibilityTechARCheckUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		23AD9D6A2CB5745D000D3B8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +138,7 @@
 			);
 			name = VisibilityTechARCheck;
 			packageProductDependencies = (
+				23AD9D6B2CB5745D000D3B8D /* FocusEntity */,
 			);
 			productName = VisibilityTechARCheck;
 			productReference = 2395C5442CAF889100773715 /* VisibilityTechARCheck.app */;
@@ -195,6 +222,10 @@
 			);
 			mainGroup = 2395C53B2CAF889100773715;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				23AD9D692CB5744A000D3B8D /* XCRemoteSwiftPackageReference "FocusEntity" */,
+				23AD9E282CBCBE93000D3B8D /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2395C5452CAF889100773715 /* Products */;
 			projectDirPath = "";
@@ -399,11 +430,14 @@
 				DEVELOPMENT_TEAM = FG6WH2X4N7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VisibilityTechARCheck/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -428,11 +462,14 @@
 				DEVELOPMENT_TEAM = FG6WH2X4N7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VisibilityTechARCheck/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -558,6 +595,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		23AD9D692CB5744A000D3B8D /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+		23AD9E282CBCBE93000D3B8D /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		23AD9D6B2CB5745D000D3B8D /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23AD9D692CB5744A000D3B8D /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2395C53C2CAF889100773715 /* Project object */;
 }
